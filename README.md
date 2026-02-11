@@ -193,4 +193,4 @@
 
 ## 🚀 링크
 
-- [리뉴얼 사이트](url추가해주세요)
+- [리뉴얼 사이트]([url추가해주세요](https://wadzuswl.github.io/project05/))
