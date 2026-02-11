@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="초록마을 베스트셀러" />
+  <link rel="icon" href="../images/favicon_io (1)/favicon-16x16.png" type="image/png" />
+  <title>베스트셀러 :: 초록마을</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <style>
+    .page-content{padding:2rem;min-height:60vh;}
+    .page-content h2{font-size:var(--h3);font-weight:700;margin-bottom:1.5rem;}
+    .product-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;margin-top:1rem;}
+    .product-card{background:#fff;border:1px solid #eee;border-radius:10px;overflow:hidden;transition:box-shadow .3s;}
+    .product-card:hover{box-shadow:0 4px 12px rgba(0,0,0,.1);}
+    .product-card a{display:block;text-decoration:none;color:inherit;}
+    .product-card img{width:100%;height:140px;object-fit:cover;}
+    .product-card .info{padding:0.8rem;}
+    .product-card .name{font-size:0.9rem;margin-bottom:0.3rem;color:#333;line-height:1.3;}
+    .product-card .price{font-weight:700;color:var(--primary);}
+    .product-card .rank{display:inline-block;background:var(--primary);color:#fff;font-size:0.75rem;font-weight:700;width:1.5rem;height:1.5rem;line-height:1.5rem;text-align:center;border-radius:4px;margin-bottom:0.3rem;}
+  </style>
+</head>
+<body>
+  <a href="#mainContent" class="skip-link">본문 바로가기</a>
+  <div class="side-menu-bg" role="presentation" aria-hidden="true"></div>
+  <div class="wrapBox">
+    <div class="wrapLeft"></div>
+    <div class="wrap" id="wrap">
+      <nav id="sideMenu" class="side-menu" role="navigation" aria-label="사이드 메뉴" aria-hidden="true">
+        <div class="side-menu-wrap">
+          <div class="side-menu-heading">
+            <h2 class="side-menu-heading-title">
+              <a href="login.html">로그인해 주세요</a>
+              <button type="button" id="sideMenuCloseBtn" class="side-menu-close-btn" aria-label="메뉴 닫기"><i class="xi-close-min xi-2x" aria-hidden="true"></i></button>
+            </h2>
+            <div class="side-menu-heading-sub">
+              <h3><a href="order-inquiry.html">주문조회</a></h3>
+              <h3><a href="signup.html">회원가입시 다양한 혜택 증정! <i class="xi-angle-right-min" aria-hidden="true"></i></a></h3>
+            </div>
+          </div>
+          <div class="side-menu-cate">
+            <h3><i class="xi-apps" aria-hidden="true"></i>전체 카테고리</h3>
+            <div class="side-category">
+              <div><a href="category.html">쌀·잡곡</a><a href="category.html"><i class="xi-angle-right-min" aria-hidden="true"></i></a></div>
+              <div><a href="category.html">과일·견과·건과</a><a href="category.html"><i class="xi-angle-right-min" aria-hidden="true"></i></a></div>
+              <div><a href="category.html">정육·계란류</a><a href="category.html"><i class="xi-angle-right-min" aria-hidden="true"></i></a></div>
+              <div><a href="category.html">차·음료·생수·유제품</a><a href="category.html"><i class="xi-angle-right-min" aria-hidden="true"></i></a></div>
+              <div><a href="category.html">장류·양념·가루·오일</a><a href="category.html"><i class="xi-angle-right-min" aria-hidden="true"></i></a></div>
+              <div><a href="category.html">화장품·주방/생활용품</a><a href="category.html"><i class="xi-angle-right-min" aria-hidden="true"></i></a></div>
+              <div><a href="category.html">대용량</a><a href="category.html"><i class="xi-angle-right-min" aria-hidden="true"></i></a></div>
+              <div><a href="category.html">채소</a><a href="category.html"><i class="xi-angle-right-min" aria-hidden="true"></i></a></div>
+              <div><a href="category.html">수산·건어물</a><a href="category.html"><i class="xi-angle-right-min" aria-hidden="true"></i></a></div>
+              <div><a href="category.html">건강식품</a><a href="category.html"><i class="xi-angle-right-min" aria-hidden="true"></i></a></div>
+              <div><a href="category.html">과자·간식·빵·빙과</a><a href="category.html"><i class="xi-angle-right-min" aria-hidden="true"></i></a></div>
+              <div><a href="category.html">면·간편국&찌개·반찬</a><a href="category.html"><i class="xi-angle-right-min" aria-hidden="true"></i></a></div>
+              <div><a href="category.html">유아동식재료&용품</a><a href="category.html"><i class="xi-angle-right-min" aria-hidden="true"></i></a></div>
+              <div><a href="category.html">선물모음</a><a href="category.html"><i class="xi-angle-right-min" aria-hidden="true"></i></a></div>
+            </div>
+          </div>
+          <div class="side-menu-service">
+            <h3><i class="xi-spa" aria-hidden="true"></i>초록마을 주요서비스</h3>
+            <div><a href="store.html">매장안내</a><a href="store.html"><i class="xi-angle-right-min" aria-hidden="true"></i></a></div>
+            <div><a href="delivery.html">매장배송 / 픽업 안내</a><a href="delivery.html"><i class="xi-angle-right-min" aria-hidden="true"></i></a></div>
+            <div><a href="customer-center.html">고객센터</a><a href="customer-center.html"><i class="xi-angle-right-min" aria-hidden="true"></i></a></div>
+          </div>
+          <div class="side-menu-banner">
+            <div class="chatbot"><a href="customer-center.html"><i class="xi-message-o xi-2x" aria-hidden="true"></i> 챗봇상담</a></div>
+            <div class="customer-center"><a href="customer-center.html"><i class="xi-call xi-2x" aria-hidden="true"></i> 고객센터</a></div>
+          </div>
+        </div>
+      </nav>
+      <main class="container" id="mainContent" role="main" tabindex="-1">
+        <div class="contentBox">
+          <header class="menuHeader" role="banner">
+            <div class="menuHeader01">
+              <button type="button" id="burgerMenuBtn" class="burger-menu-btn" aria-expanded="false" aria-controls="sideMenu" aria-label="메뉴 열기"><i class="xi-bars xi-2x" aria-hidden="true"></i></button>
+              <a href="../index.html" aria-label="초록마을 홈"><img src="../images/logo/logo.svg" alt="초록마을" class="logo" /></a>
+              <div class="menuHeader-right" role="group" aria-label="검색 및 장바구니">
+                <a href="search.html" aria-label="검색"><i class="xi-search xi-2x" aria-hidden="true"></i></a>
+                <a href="cart.html" aria-label="장바구니"><i class="xi-cart-o xi-2x" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <nav class="menuHeader02" aria-label="주요 메뉴">
+              <ul class="menuHeader02-list">
+                <li><a href="on-sale.html">On Sale</a></li>
+                <li><a href="bestseller.html">베스트셀러</a></li>
+                <li><a href="delivery.html">배송안내</a></li>
+                <li><a href="recipe.html">초록레시피</a></li>
+                <li><a href="store.html">매장안내</a></li>
+              </ul>
+            </nav>
+          </header>
+          <section class="page-content">
+            <h2>베스트셀러</h2>
+            <p>초록마을 회원들이 가장 많이 구매한 인기 상품을 만나보세요. 유기농·무농약 제품으로 건강한 식탁을 만들어드립니다.</p>
+            <div class="product-grid" id="bestsellerGrid"></div>
+          </section>
+          <footer>
+            <div class="footer-menu">
+              <a href="login.html">로그인</a>
+              <a href="store.html">매장소개</a>
+              <a href="customer-center.html">고객센터</a>
+            </div>
+            <div class="footer">
+              <h3>초록마을 사업자 정보</h3>
+              <p>(주)초록마을 대표이사 김재연<br>서울특별시 강남구 언주로 726 8층, 11층<br>고객센터: 080-023-0023<br>Copyright 2021. The Chorocmaeul Co., Ltd.</p>
+            </div>
+            <div class="footer-etc">
+              <a href="terms.html">이용약관</a>
+              <a href="privacy.html">개인정보처리방침</a>
+            </div>
+          </footer>
+          <div class="under-nav">
+            <ul>
+              <li><a href="../index.html" aria-label="홈"><i class="bi bi-house-fill under-nav-icon" aria-hidden="true"></i><span class="under-nav-label">홈</span></a></li>
+              <li><a href="category.html" aria-label="카테고리"><i class="bi bi-grid-3x3-gap-fill under-nav-icon" aria-hidden="true"></i><span class="under-nav-label">카테고리</span></a></li>
+              <li><a href="search.html" aria-label="검색"><i class="bi bi-search under-nav-icon" aria-hidden="true"></i><span class="under-nav-label">검색</span></a></li>
+              <li><a href="cart.html" aria-label="장바구니"><i class="bi bi-cart-fill under-nav-icon" aria-hidden="true"></i><span class="under-nav-label">장바구니</span></a></li>
+              <li><a href="mypage.html" aria-label="마이페이지"><i class="bi bi-person-fill under-nav-icon" aria-hidden="true"></i><span class="under-nav-label">마이</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+  <script src="../js/data.js"></script>
+  <script src="../js/side_menu.js"></script>
+  <script>
+    (function(){
+      var products = typeof siteData !== 'undefined' ? siteData.recommendation.products : [
+        {img:'../images/recommendation/오미자.jpg',alt:'오미자차',name:'오미자차(660g)',price:'14,800'},
+        {img:'../images/recommendation/왕만두.jpg',alt:'왕만두',name:'왕만두(420g)',price:'6,280'},
+        {img:'../images/recommendation/오렌지당근.jpg',alt:'유기농 ACE주스',name:'유기농 ACE주스(750mL)',price:'14,800'},
+        {img:'../images/recommendation/오렌지.jpg',alt:'통째로 짜낸 오렌지',name:'통째로 짜낸 오렌지(145mLx10개입)',price:'13,800'}
+      ];
+      var grid = document.getElementById('bestsellerGrid');
+      if(grid && products){ var i=1; products.forEach(function(p){ var path = p.img.indexOf('images')===0 ? '../'+p.img : p.img; grid.innerHTML += '<div class="product-card"><a href="cart.html"><span class="rank">'+i+'</span><img src="'+path+'" alt="'+p.alt+'"><div class="info"><p class="name">'+p.name+'</p><p class="price">'+p.price+'원</p></div></a></div>'; i++; }); }
+    })();
+  </script>
+</body>
+</html>

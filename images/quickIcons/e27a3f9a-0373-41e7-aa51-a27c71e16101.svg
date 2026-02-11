@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="그룹_8425" data-name="그룹 8425" transform="translate(-285 -822)">
+    <rect id="사각형_4303" data-name="사각형 4303" width="70" height="70" rx="20" transform="translate(285 822)" fill="#f6f6f6"/>
+    <g id="그룹_8332" data-name="그룹 8332" transform="translate(-1090.5 -762.572)">
+      <g id="그룹_8331" data-name="그룹 8331" transform="translate(1389.5 1601.572)">
+        <path id="합치기_49" data-name="합치기 49" d="M0,23.364V13.416A9.952,9.952,0,0,1,7.292,3.827V0l3.579,3.469h3.651a9.948,9.948,0,0,1,0,19.9Z" transform="translate(41.467 36.627) rotate(180)" fill="#fff" stroke="#1a1311" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="합치기_48" data-name="합치기 48" d="M8.929,29.187A10,10,0,0,1,0,19.244V10A10,10,0,0,1,10,0H35.809V19.244a10,10,0,0,1-10,10H12.7L8.929,32.913Z" transform="translate(0 0)" fill="#fff" stroke="#1a1311" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <g id="그룹_8333" data-name="그룹 8333" transform="translate(11.563 5.703)">
+          <g id="그룹_8330" data-name="그룹 8330" transform="translate(0 0)">
+            <g id="Group_8028" data-name="Group 8028" transform="translate(0 0)">
+              <g id="Group_8044" data-name="Group 8044" transform="translate(1.369 0)">
+                <path id="Path_9380" data-name="Path 9380" d="M2260.46,48.288c1.149,0,2.264.784,2.513,2.739" transform="translate(-2260.46 -48.288)" fill="none" stroke="#1a1311" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                <path id="Path_9380-2" data-name="Path 9380" d="M2262.973,48.288c-1.149,0-2.264.784-2.513,2.739" transform="translate(-2257.721 -48.288)" fill="none" stroke="#1a1311" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+              </g>
+              <path id="Path_9383" data-name="Path 9383" d="M2259.894,72.707h-.457a2.031,2.031,0,0,1-2.085-1.417c-.5-3.409-1.609-11.184-1.609-11.184-.146-.95.828-1.784,2.084-1.784h3.675c1.256,0,2.231.834,2.085,1.784,0,0-1.107,7.775-1.609,11.184A2.032,2.032,0,0,1,2259.894,72.707Z" transform="translate(-2255.728 -55.444)" fill="#fff" stroke="#1a1311" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            </g>
+            <g id="apple" transform="translate(5.754 5.371)">
+              <path id="Path_9385" data-name="Path 9385" d="M2276.48,76.925a2.839,2.839,0,0,0-2.879-2.758c-1.056-.094-1.558.93-2.126.879-.569.051-1.069-.954-2.126-.879a2.863,2.863,0,0,0-2.879,2.758c-.332,2.264,1.4,5.109,2.836,5.629.721.261,1.314-.218,2.168-.192.773.023,1.448.453,2.168.192C2275.083,82.034,2276.813,79.189,2276.48,76.925Z" transform="translate(-2266.429 -72.339)" fill="#e4efac" stroke="#1a1311" stroke-miterlimit="10" stroke-width="1"/>
+              <path id="Path_9384" data-name="Path 9384" d="M2800.166,1098.418c.98.214.785,1.787.751,2.158" transform="translate(-2795.705 -1098.418)" fill="#fff" stroke="#1a1311" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

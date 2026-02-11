@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="그룹_8434" data-name="그룹 8434" transform="translate(-285 -573)">
+    <rect id="사각형_4303" data-name="사각형 4303" width="70" height="70" transform="translate(285 573)" fill="#f6f6f6"/>
+    <g id="그룹_8347" data-name="그룹 8347">
+      <rect id="사각형_4295" data-name="사각형 4295" width="50" height="50" transform="translate(295 583)" fill="#ededed" opacity="0"/>
+      <g id="그룹_8346" data-name="그룹 8346" transform="translate(-724.024 493.601)">
+        <path id="패스_14" data-name="패스 14" d="M1038.215,118.879s-4.331,6.376,0,11.719,1.682,6.8,1.682,6.8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="합치기_52" data-name="합치기 52" d="M153.576,4964.312l.7-2.551a9.679,9.679,0,0,1-7.252-9.569c0-5.408,4.128-9.792,9.219-9.792s9.219,4.384,9.219,9.792a9.679,9.679,0,0,1-7.252,9.569l.7,2.551Z" transform="translate(881 -4843.732)" fill="#fff" stroke="#000" stroke-linejoin="round" stroke-width="1"/>
+        <ellipse id="타원_10" data-name="타원 10" cx="9.22" cy="9.793" rx="9.22" ry="9.793" transform="translate(1038.927 92.399)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="패스_13" data-name="패스 13" d="M1050.805,127.279a21.008,21.008,0,0,0-.5,4.007c0,1.862,3.882,5.586,3.882,5.586" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="합치기_53" data-name="합치기 53" d="M153.575,4964.063l.633-2.318a9.685,9.685,0,0,1-7.183-9.554c0-5.408,4.127-9.792,9.219-9.792s9.22,4.384,9.22,9.792a9.686,9.686,0,0,1-7.184,9.554l.633,2.318Z" transform="translate(894.561 -4836.035)" fill="#e4efac" stroke="#222" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
