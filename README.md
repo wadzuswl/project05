@@ -72,7 +72,7 @@
 - 개발 환경 : <img src="https://img.shields.io/badge/windows10-0078D6?style=flat-square&logo=windows10&logoColor=white"/>
 - 사용 프로그램 : <img src="https://img.shields.io/badge/Vs code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=white"/> <img src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
 - 사용된 기술 :
-  <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css3-1572B6?style=flat-square&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jQuery&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"> <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=Swiper&logoColor=white">
+  <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css3-1572B6?style=flat-square&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"> <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=Swiper&logoColor=white">
 
 ## 🛠️ 페이지 특성
 
@@ -147,7 +147,7 @@
 | :--------------------------------------------------------------------------------------------------------------------- |
 | ![chorocFullShot](https://github.com/Isabella-Kim/ChorocRenewal/assets/139948934/0e1ae937-6f0f-48ae-9934-dd529e2827c4) |
 
-|| 전체적으로 Header, 메인비주얼, 강력추천상품, 시즌상품 추천, 세일상품, Footer, 버튼영역 의 섹션으로 구성되었습니다. 이 중 메인비주얼, 강력추천상품, 시즌상품 추천, 세일상품, 버튼영역에 대해 소개합니다. 콘텐츠는 `js/data.js`의 객체에서 관리되며, `js/app.js`가 동적 렌더링합니다.
+| 전체적으로 Header, 메인비주얼, 강력추천상품, 시즌상품 추천, 세일상품, Footer, 버튼영역 의 섹션으로 구성되었습니다. 이 중 메인비주얼, 강력추천상품, 시즌상품 추천, 세일상품, 버튼영역에 대해 소개합니다. 콘텐츠는 `js/data.js`의 객체에서 관리되며, `js/app.js`가 동적 렌더링합니다.
 
 <br>
 
@@ -171,7 +171,7 @@
 | :---------------------------------------------------------------------------------------------------------------- |
 | ![todayMenu](https://github.com/Isabella-Kim/ChorocRenewal/assets/139948934/581f45fe-f029-478a-b732-5cae5995ddf8) |
 
-| 여름을 계절 기준으로 잡고, 사이트에서 시즌에 맞으면서도 특색있는 식품인 흑임자 콩국물을 활용한 다양한 상품들을 소개합니다. Swiper 슬라이드로 상품을 활용한 대표 식품을 구분하고, 해당 식품 제조에 사용된 상세 제품들을 overflow-y:auto로 내부 스크롤을 만들어서 보여줍니다.
+| 여름을 기준으로 해서, 사이트에서 시즌에 맞으면서도 특색있는 식품인 흑임자 콩국물을 활용한 다양한 상품들을 소개합니다. Swiper 슬라이드로 상품을 활용한 대표 식품을 구분하고, 해당 식품 제조에 사용된 상세 제품들을 overflow-y:auto로 내부 스크롤을 만들어서 보여줍니다.
 
 <br>
 
