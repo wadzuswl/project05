@@ -1,8 +1,10 @@
 # 🌱 초록마을 사이트 리뉴얼 프로젝트
 
-## 👤 작업자: 정현지
+### 👤 작업자: 정현지
 
-## ⏱️ 제작 기간: 3일 (2026.02.06 ~ 2023.02.08) / 리뉴얼: 2025.02
+### ⏱️ 제작 기간: 3일 (2026.02.06 ~ 2023.02.08)
+
+### 🚀 사이트: https://wadzuswl.github.io/project05/
 
 ---
 
@@ -70,7 +72,7 @@
 ## 💻 개발 환경
 
 - 개발 환경 : <img src="https://img.shields.io/badge/windows10-0078D6?style=flat-square&logo=windows10&logoColor=white"/>
-- 사용 프로그램 : <img src="https://img.shields.io/badge/Vs code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=white"/> <img src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
+- 사용 프로그램 : <img src="https://img.shields.io/badge/Vs code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
 - 사용된 기술 :
   <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css3-1572B6?style=flat-square&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"> <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=Swiper&logoColor=white">
 
@@ -188,9 +190,3 @@
 | ![button](https://github.com/Isabella-Kim/ChorocRenewal/assets/139948934/4d265934-a757-4aae-859d-e2b1bd7e0166) |
 
 | 화면 하단에 보이는 버튼 영역입니다. 스크롤을 내릴 때에는 보이지 않다가 스크롤을 올릴 때에만 나타납니다.
-
-<br>
-
-## 🚀 링크
-
-- 🔗 [리뉴얼 사이트 바로가기](https://wadzuswl.github.io/project05/)
